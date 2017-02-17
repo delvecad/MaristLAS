@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: AFL;
+    src: url(http://www.maristlas.com/aflfont.TTF) format('truetype');
+}
+
+header {
+    height: 50vh;
+    width: 100vw;
+    float: left;
+    background-image: url(typewriter.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    background-position: center;
+    background-color:beige;    
+    margin-bottom: 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.logoLink{
+    text-decoration: none;
+    color: #ac0d27;
+}
+
+.navPanel{
+    border-radius: 15px 15px 15px 15px;
+    width: 20vw;
+    float: left;
+}
+
+.textArea{
+    width: 60vw;
+    float: left;
+    font-family: 'AFL';
+    height: 95vh;
+}
+
+p {
+    font-family: 'AFL';
+    padding-left: 30px;
+    width: 600px;
+    margin: 0 auto 20px;
+}
+
+h1{
+    color:#ac0d27;
+    font-family: 'Cinzel Decorative', serif;
+    font-size-adjust: auto;
+    font-size: 50pt;
+    text-shadow: 1px 3px 4px black;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.sub {
+    margin-left: 30px;
+    text-align: center;
+    font-family: 'AFL';
+}
+
+.heading{
+    position: relative;
+}
+
+
+h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Cinzel Decorative', serif;
+  color: black;
+    font-size: 25pt;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.1); 
+    text-align: center;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:static;
+    height: 50vh;
+    width: 20vw;
+    border-bottom-right-radius: 15px;
+}
+
+li {
+    float: none;
+}
+
+li a {
+    font-family: 'AFL';
+    font-size: 14pt;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: "Lucida Sans Unicode";
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+p{
+    font-family: 'times';
+    font-family: sans-serif;
+}
+
+.active {
+    background-color: #ac0d27;
+}
+
+footer{
+    margin-top: 50vh;
+    width: 60vw;
+    font-family: 'AFL';
+    color: black;
+    text-align: center;
+}
+
+.email {
+    color: #cc0000;
+}
+
+.social {
+    font: 'Times';
+    color: #ac0d27;
+}
+
+.writingTitle{
+    font-style: italic;
+    color: #ac0d27;
+}

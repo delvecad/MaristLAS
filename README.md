@@ -1,4 +1,4 @@
-# delvecad.github.io
+# Marist LAS Site
 Marist's Literary Arts Society website 
 
 Site can be viewed at https://delvecad.github.io/
